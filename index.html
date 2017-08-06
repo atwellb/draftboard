@@ -1,5 +1,11 @@
-<html>
-	<body>
-		this is some text
+<!doctype html>
+<html ng-app="draftboard">
+	<head>
+		<title>My AngularJS App</title>
+    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    	<script src="app.js"></script>
+	</head>
+	<body ng-controller="DraftController as ctrl">
+		{{ ctrl.message }}
 	</body>
 </html>
